@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Narozni_First_App.ValgusFoor">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="RedFrame" BackgroundColor="Gray" 
+                   CornerRadius="100"
+                   Padding="80"
+                   Margin="100,0">
+                <Label x:Name="punane"
+                       Text=""/>
+            </Frame>
+            <Frame x:Name="YellowFrame"  BackgroundColor="Gray"
+                   CornerRadius="100"
+                   Padding="80"
+                   Margin="100,0">
+                <Label x:Name="kollane"
+                       Text=""/>
+             
+            </Frame>
+            <Frame x:Name="GreenFrame" BackgroundColor="Gray"
+                   CornerRadius="100"
+                   Padding="80"
+                   Margin="100,0">
+                <Label x:Name="roheline"
+                       Text=""/>
+            </Frame>
+
+
+            <StackLayout Orientation="Horizontal" Margin="-60,0,0,0">
+                <Button x:Name="BtnOn" Text="ON" BackgroundColor="#B4FF02" BorderColor="#318A00" BorderWidth="7" FontSize="Large" Clicked="BtnOn_Clicked" HorizontalOptions="CenterAndExpand"></Button>
+                <Button x:Name="BtnOff" Text="OFF" BackgroundColor="#B4FF02" BorderColor="#318A00" BorderWidth="7" FontSize="Large" Clicked="BtnOff_Clicked" HorizontalOptions="EndAndExpand"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

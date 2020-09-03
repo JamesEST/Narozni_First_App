@@ -10,7 +10,7 @@ namespace Narozni_First_App
         {
             InitializeComponent();
 
-            MainPage = new Stackpage();
+            MainPage = new ValgusFoor();
         }
 
         protected override void OnStart()

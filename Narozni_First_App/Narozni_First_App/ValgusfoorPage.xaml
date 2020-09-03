@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Narozni_First_App.ValgusfoorPage">
+  <ContentView.Content>
+      <StackLayout>
+            <Frame BackgroundColor="Red" CornerRadius="50">
+                <Label x:Name="punane"
+                       Text="Punane"/>
+                
+                
+                
+            </Frame>
+          
+
+      
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="BtnOn" Text="Start" BackgroundColor="#B4FF02" BorderColor="#318A00" BorderWidth="7" FontSize="Large" Clicked="BtnOn_Clicked"></Button>
+                <Button x:Name="BtnOff" Text="Clear" BackgroundColor="#B4FF02" BorderColor="#318A00" BorderWidth="7" FontSize="Large" Clicked="BtnOff_Clicked" ></Button>
+            </StackLayout>
+        </StackLayout>
+
+  </ContentView.Content>
+</ContentView>
