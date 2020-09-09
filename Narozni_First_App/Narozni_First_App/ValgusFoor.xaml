@@ -16,7 +16,7 @@
                    Padding="80"
                    Margin="100,0">
                 <Label x:Name="kollane"
-                       Text=""/>
+                       Text="" />
              
             </Frame>
             <Frame x:Name="GreenFrame" BackgroundColor="Gray"
