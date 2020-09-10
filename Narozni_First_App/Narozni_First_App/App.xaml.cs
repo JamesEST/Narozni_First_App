@@ -10,7 +10,7 @@ namespace Narozni_First_App
         {
             InitializeComponent();
 
-            MainPage = new Page1();
+            MainPage = new Page2();
         }
 
         protected override void OnStart()

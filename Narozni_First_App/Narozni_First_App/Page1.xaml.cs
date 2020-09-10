@@ -117,6 +117,7 @@ namespace Narozni_First_App
             btn2.Clicked += Btn2_Clicked;
             btn3.Clicked += Btn3_Clicked;
 
+
             Content = stackLayout;
 
             var tap = new TapGestureRecognizer();
